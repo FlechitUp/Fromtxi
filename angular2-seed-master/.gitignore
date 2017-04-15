@@ -1,0 +1,9 @@
+.DS_Store
+.nodemonignore
+*.log
+*.sublime-project
+*.sublime-workspace
+_build/
+node_modules/
+bower_components/
+typings/

@@ -1,0 +1,55 @@
+{
+	"browserSync": {
+		"baseDir": "_build",
+		"open": false,
+		"port": 1981
+	},
+	"src": {
+		"assets": {
+			"html": {
+				"templates": ["**/*.html", "index.html", "!bower_components/**/*", "!node_modules/**/*", "!_build/**/*"],
+				"index": "index.html"
+			},
+			"jade": {
+				"templates": ["**/*.jade", "index.jade", "!bower_components/**/*", "!node_modules/**/*", "!_build/**/*"],
+				"index": "index.jade"
+			},
+			"sass": {
+				"app": ["./app/**/*.scss"],
+				"main": "./app/css/styles.scss"
+			},
+			"stylus": {
+				"app": ["./app/**/*.styl"],
+				"main": "./app/css/styles.styl"
+			}
+		},
+		"app": "./app/**/*",
+		"ts": "./app/**/*.ts"
+	},
+	"dest": {
+		"app": "./_build/app",
+		"assets": {
+			"css": "./_build/app/css",
+			"dir": "./_build/public",
+			"html": {
+				"index": "./_build/",
+				"templates": "./_build/"
+			},
+			"jade": {
+				"index": "./_build/",
+				"templates": "./_build/"
+			},
+			"sass": {
+				"app": "./_build/",
+				"main": "./_build/css/"
+			},
+			"stylus": {
+				"app": "./_build/",
+				"main": "./_build/css/"
+			}
+		},
+		"dir": "./_build",
+		"lib": "./_build/lib"
+	},
+	"npm": "./node_modules/"
+}
