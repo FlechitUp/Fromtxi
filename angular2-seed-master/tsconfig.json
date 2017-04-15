@@ -29,6 +29,8 @@
     "typings/browser.d.ts",
     "typings/browser/ambient/es6-shim/index.d.ts",
     "app/app.component.ts",
-    "app/main.ts"
+    "app/arbiter.ts",
+    "app/main.ts",
+    "app/onnotifications.ts"
   ]
 }
